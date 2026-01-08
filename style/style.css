@@ -6,7 +6,10 @@
     box-sizing: border-box;
     margin:0px;
 }
-
+main{
+    max-width:1272px;
+    margin:0px auto;
+}
 /* Shared Style */
 .btn{
     background-color:#469165;
@@ -15,6 +18,13 @@
     border-radius:4px;
     color:white;
     font-size:15px;
+}
+
+.para{
+     font-size:15px;
+    font-weight: 400;
+    color:#627382;
+    line-height: 24px;
 }
 
 /* Nav bar Style  */
@@ -84,4 +94,32 @@ nav img {
     font-size:17px;
     font-weight: 400;
     line-height: 24px;
+}
+
+/* notes style  */
+
+.notes{
+    text-align: center;
+    margin-top:70px;
+}
+.notes h1{
+    font-size:46px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+ 
+}
+.card{
+       box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.06);
+       padding: 65px 24px;
+       border-radius: 8px;
+}
+.card img{
+    background-color:#F95555;
+    border-radius: 100%;
+    padding:12px;
 }
