@@ -20,12 +20,20 @@ main{
     font-size:15px;
 }
 
+.go-btn{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border:1px solid #469165;
+}
+
 .para{
      font-size:14px;
     font-weight: 400;
     color:#627382;
     line-height: 20px;
 }
+
 
 /* Nav bar Style  */
 nav{
@@ -73,12 +81,7 @@ nav img {
     color:#469165;
     padding:8px 12px;
 }
-.banner-btn1{
-    display: flex;
-    align-items: center;
-    gap:10px;
-    border:1px solid #469165;
-}
+
 .banner-btn2{
     background-color:transparent;
     border:1px solid white;
@@ -178,3 +181,51 @@ nav img {
     list-style:none;
     font-size: 15px;
 }
+
+
+/* think clearly Style */
+
+.think-clearly{
+    background-color:#F7F6F2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    padding: 75px 0px;
+    margin-bottom: 115px;
+
+}
+
+/* footer style */
+footer{
+    background-color:#001931;
+}
+.footer-content{
+    max-width:1272px;
+    margin:0px auto;
+    color:white;
+    padding:115px 0px 28px;
+}
+.social{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+.social .link{
+    padding-right:100px;
+}
+.social .link p{
+    font-size:18px;
+    font-weight: 400;
+}
+.social-icon img{
+    width:16px;
+    margin:14px 14px 0px 0px;
+}
+
+hr{
+    color:#E5E7EB;
+    margin-bottom:28px;
+}
+
