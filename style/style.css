@@ -14,17 +14,20 @@ main{
 .btn{
     background-color:#469165;
     padding:12px 15px;
-    border:none;
+    border:1px solid #469165;
     border-radius:4px;
     color:white;
     font-size:15px;
 }
-
+.btn:hover{
+    background-color:#FF7DB0;
+    border:1px solid #00F7FF;
+}
 .go-btn{
     display: flex;
     align-items: center;
     gap:10px;
-    border:1px solid #469165;
+    
 }
 
 .para{
@@ -46,17 +49,18 @@ nav{
 nav img {
     width:130px;
 }
-.navbar ul{
+.menu-items ul{
     display:flex;
     gap:30px;
 }
-.navbar ul li {
+.menu-items ul li {
     list-style-type: none;
     font-size:15px;
     font-weight:500;   
 }
-.navbar ul li a {
+.menu-items ul li a {
     text-decoration: none;
+    color:#000000;
 }
 
 /* banner Style */
@@ -79,13 +83,21 @@ nav img {
     border-radius: 1000px;
     border:none;
     color:#469165;
+    font-size: 15px;
+    font-weight: 500;
     padding:8px 12px;
 }
-
+.banner-btn0:hover{
+    background-color:#FF7DB0;
+    color:white;
+}
 .banner-btn2{
     background-color:transparent;
     border:1px solid white;
     margin-left: 15px;
+}
+.banner-btn2 .icon{
+    margin-right:8px;
 }
 
 .banner-content h1{
@@ -94,8 +106,8 @@ nav img {
 }
 
 .banner-content p{
-    font-size:17px;
-    font-weight: 400;
+    font-size:16px;
+    font-weight:400;
     line-height: 24px;
 }
 
@@ -227,5 +239,6 @@ footer{
 hr{
     color:#E5E7EB;
     margin-bottom:28px;
+    opacity: .2;
 }
 
