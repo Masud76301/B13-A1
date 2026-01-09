@@ -32,9 +32,9 @@ main{
 
 .para{
      font-size:14px;
-    font-weight: 400;
+    font-weight: 300;
     color:#627382;
-    line-height: 20px;
+    line-height: 24px;
 }
 
 
@@ -207,6 +207,11 @@ nav img {
     padding: 75px 0px;
     margin-bottom: 115px;
 
+}
+.think-clearly h2{
+    font-size:38px;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
 /* footer style */
